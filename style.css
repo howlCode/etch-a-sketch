@@ -1,12 +1,70 @@
-#outer {
-	width: 600px;
-	height: 600px;
-	border: 50px solid red;
+
+#text {
 	margin: 0 auto;
-	margin-top: 75px;
+	text-align: center;
+}
+
+#outer {
+	position: relative;
+	top: 90px;
+	outline:50px solid #CF2400;
+	font-size: 0;
+	margin:auto;
+  height: 605px;
+  width: 800px;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+  margin-top: 20px;
+
+}
+
+li {
+	display: inline;
+	text-align: center;
+}
+
+button {
+	background-color: #008cba;
+	color: white;
+	border: none;
+	font-size: 20px;
+	border-radius: 2px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor: pointer;
 }
 
 h1 {
 	text-align: center;
 	margin: 0 auto;
+	margin-top: 50px;
 }
+
+#sketchpad {
+	position: relative;
+	margin: none;
+	padding: 0;
+	border: none;
+	height: 600px;
+	width: 800px;
+}
+
+.grid {
+	display: inline-block;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	border: none; 
+}
+
+.darken {
+	background-color: black;
+}
+
